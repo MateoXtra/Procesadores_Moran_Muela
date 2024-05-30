@@ -18,6 +18,17 @@ public class Main {
         procesador_intel.ImprimirdatosGraficos();
         procesador_amd.imprimirDatos();
         procesador_amd.imprimirDatosAmd();
+
+        //David crear instancia para proceador AMD con valores
+
+
+        //Mateo crear instancia para proceador moviles1 con valores
+        Procesadores_moviles procesadorMoviles3 = new Procesadores_moviles(1,20,2.5,"Iphone 11",true);
+        procesadorMoviles3.imprimirDatosMoviles();
+
+
+
+
     }
 
 }
