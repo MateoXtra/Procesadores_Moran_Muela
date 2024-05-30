@@ -20,6 +20,8 @@ public class Main {
         procesador_amd.imprimirDatosAmd();
 
         //David crear instancia para proceador AMD con valores
+        Procesadores_Amd procesador_amd1 = new Procesadores_Amd(5,1,34,"Ryzer 7 5700G","AM4",true);
+
 
 
         //Mateo crear instancia para proceador moviles1 con valores
