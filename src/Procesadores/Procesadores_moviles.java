@@ -24,7 +24,7 @@ public class Procesadores_moviles extends Procesador {
     //metodos Personalizados
 
     public void imprimirDatosMoviles(){
-        System.out.println("Optimizacion de energia: " + isOptimizacion_energia());
+        System.out.println("Optimizacion de energia: " + optimizacion_energia);
         System.out.println(this.optimizacion_energia);
 
     }
