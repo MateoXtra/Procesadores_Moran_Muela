@@ -1,6 +1,6 @@
 package Procesadores;
 
-public class Procesadores_Intel extends Procesador{
+public class Procesadores_Intel extends Procesadores_Escritorio{
     boolean grafica_integrada;
 
     public Procesadores_Intel() {
