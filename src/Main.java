@@ -1,16 +1,16 @@
 import Procesadores.Procesador;
-import Procesadores.Procesadores_Amd;
-import Procesadores.Procesadores_Intel;
+import Procesadores.Procesadores_moviles;
 
 public class Main {
     public static void main(String[] args) {
-        //integrante David (2)
+        Procesador procesador = new Procesador(4,12.232,12.343,"Intel Ik98455");
+
+        procesador.imprimirDatos();
+        Procesadores_moviles procesadorMoviles = new Procesadores_moviles(2,23,1,"Chip",true);
 
 
-        //integrante Mateo(1)
 
-        Procesadores_Amd procesador_amd = new Procesadores_Amd();
-        Procesadores_Intel procesador_intel = new Procesadores_Intel(8,3.24,5.65,"Intel 3-7100","Intel Socket 1151",false);
+
     }
 
 }
