@@ -1,10 +1,13 @@
 import Procesadores.Procesador;
 import Procesadores.Procesadores_Amd;
 import Procesadores.Procesadores_Intel;
+import Procesadores.Procesadores_moviles;
 
 public class Main {
     public static void main(String[] args) {
         //integrante David (2).
+        Procesadores_moviles procesadorMoviles1 = new Procesadores_moviles();
+        Procesadores_moviles procesadorMoviles2 = new Procesadores_moviles(2,23,1,"Chip",true);
 
 
         //integrante Mateo (1).
