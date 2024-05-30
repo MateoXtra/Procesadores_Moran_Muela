@@ -1,4 +1,4 @@
-package Proceadores;
+package Procesadores;
 
 public class Procesador {
     int nucleos;
