@@ -1,13 +1,13 @@
-import Procesadores.Procesador;
-import Procesadores.Procesadores_Amd;
-import Procesadores.Procesadores_Intel;
-import Procesadores.Procesadores_moviles;
+import Procesadores.*;
 
 public class Main {
     public static void main(String[] args) {
         //integrante David (2).
         Procesadores_moviles procesadorMoviles1 = new Procesadores_moviles();
         Procesadores_moviles procesadorMoviles2 = new Procesadores_moviles(2,23,1,"Chip",true);
+        Procesadores_Escritorio procesadoresEscritorio = new Procesadores_Escritorio(8,12.34,12,"Ryzer 3 3200G","AMD4");
+        procesadoresEscritorio.imprimirDatosEsctirotio();
+        procesadorMoviles2.imprimirDatosMoviles();
 
 
         //integrante Mateo (1).
