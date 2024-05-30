@@ -1,6 +1,8 @@
+import Procesadores.Procesador;
+
 public class Main {
     public static void main(String[] args) {
-        //hola
+        Procesador procesador = new Procesador();
     }
 
 }
