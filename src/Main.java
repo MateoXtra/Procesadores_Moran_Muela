@@ -4,7 +4,7 @@ import Procesadores.Procesadores_Intel;
 
 public class Main {
     public static void main(String[] args) {
-        //integrante David (2)
+        //integrante David (2).
 
 
         //integrante Mateo (1).
