@@ -29,6 +29,12 @@ public class Main {
         procesadorMoviles3.imprimirDatosMoviles();
 
 
+        //David Muela
+        Procesadores_AMD prc_3 = new Procesadores_AMD(12,"AMD4","Ryzer 3 3200G",4,60,2,false);
+        Procesadores_moviles movile_1 = new Procesadores_moviles(true,"Chip",2,20,2.5);
+        Procesadores_escritorio escritorio_1 = new Procesadores_escritorio(7,"AMD4","Ryzer 5 5600x",16,65,3.5);
+
+
 
 
     }
