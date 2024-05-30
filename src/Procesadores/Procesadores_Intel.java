@@ -6,8 +6,8 @@ public class Procesadores_Intel extends Procesadores_Escritorio{
     public Procesadores_Intel() {
     }
 
-    public Procesadores_Intel(int nucleos, double consumo, double velocidad, String nombre, boolean grafica_integrada) {
-        super(nucleos, consumo, velocidad, nombre);
+    public Procesadores_Intel(int nucleos, double consumo, double velocidad, String nombre, String socket, boolean grafica_integrada) {
+        super(nucleos, consumo, velocidad, nombre, socket);
         this.grafica_integrada = grafica_integrada;
     }
 
