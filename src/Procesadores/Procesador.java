@@ -53,7 +53,7 @@ public class Procesador {
 
     //metodos personalizados
 
-    public void impromirDatos(){
+    public void imprimirDatos(){
         System.out.println("El nombre del procesador es: "+nombre);
         System.out.println("El consumo del procesador es: "+consumo);
         System.out.println("La velocidad del procesador es: "+velocidad);
