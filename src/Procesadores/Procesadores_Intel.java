@@ -26,4 +26,10 @@ public class Procesadores_Intel extends Procesadores_Escritorio{
         System.out.println(this.grafica_integrada);
 
     }
+
+    @Override
+    public void imprimirdatos() {
+        System.out.println("Procesador Intel.");
+    }
 }
+

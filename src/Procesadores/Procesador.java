@@ -1,6 +1,8 @@
 package Procesadores;
 
-public class Procesador {
+import java.sql.SQLOutput;
+
+public abstract class Procesador {
     int nucleos;
     double consumo;
     double velocidad;
@@ -54,11 +56,14 @@ public class Procesador {
     //metodos personalizados
 
     public void imprimirDatos(){
+        System.out.println("Esta es la clase principal en el primer nivel");
         System.out.println("El nombre del procesador es: "+nombre);
         System.out.println("El consumo del procesador es: "+consumo);
         System.out.println("La velocidad del procesador es: "+velocidad);
-        System.out.println("El velocidad del procesador es: "+nucleos);
+        System.out.println("Los nucleos del procesador son: "+nucleos);
 
 
     }
+
+    public abstract void imprimirdatos();
 }

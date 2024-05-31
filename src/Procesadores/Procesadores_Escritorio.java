@@ -1,7 +1,5 @@
 package Procesadores;
 
-import com.sun.security.jgss.GSSUtil;
-
 public class Procesadores_Escritorio extends Procesador {
     String socket;
 
@@ -27,6 +25,11 @@ public class Procesadores_Escritorio extends Procesador {
         System.out.println("Socket: " + socket);
         System.out.println(this.socket);
 
+    }
+
+    @Override
+    public void imprimirdatos() {
+        System.out.println("Computador de escritorio.");
     }
 }
 
