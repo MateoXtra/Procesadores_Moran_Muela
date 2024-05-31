@@ -28,7 +28,7 @@ public class Procesadores_Intel extends Procesadores_Escritorio{
     }
 
     @Override
-    public void imprimirdatos() {
+    public void imprimirDatos() {
         System.out.println("Procesador Intel.");
     }
 }

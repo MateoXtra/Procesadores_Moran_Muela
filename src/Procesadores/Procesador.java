@@ -2,7 +2,7 @@ package Procesadores;
 
 import java.sql.SQLOutput;
 
-public abstract class Procesador {
+public class Procesador {
     int nucleos;
     double consumo;
     double velocidad;
@@ -64,6 +64,4 @@ public abstract class Procesador {
 
 
     }
-
-    public abstract void imprimirdatos();
 }

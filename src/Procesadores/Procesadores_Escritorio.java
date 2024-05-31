@@ -28,7 +28,7 @@ public class Procesadores_Escritorio extends Procesador {
     }
 
     @Override
-    public void imprimirdatos() {
+    public void imprimirDatos() {
         System.out.println("Computador de escritorio.");
     }
 }
